@@ -1,8 +1,13 @@
 
-Useful Links :
+# Some important concepts before learning any JS frame work
+
+
+## Useful Links :
 
 https://www.makeuseof.com/javascript-concepts-for-react-beginners/
+
 https://www.freecodecamp.org/news/javascript-concepts-you-should-know-before-learning-react/
+
 https://blog.appseed.us/10-javascript-concepts-for-react-beginners/
 
 1. Arrow Functions
