@@ -1,0 +1,72 @@
+
+Useful Links :
+
+https://www.makeuseof.com/javascript-concepts-for-react-beginners/
+https://www.freecodecamp.org/news/javascript-concepts-you-should-know-before-learning-react/
+https://blog.appseed.us/10-javascript-concepts-for-react-beginners/
+
+1. Arrow Functions
+
+The two functions above have the same output, although the syntax is different. The arrow function looks shorter and cleaner than the regular function. Usually, the React components have the following structure
+
+
+2. Destructuring
+
+Destructuring is used to obtain data from complex data structures. In JavaScript, arrays and objects can store many values. You can manipulate the values and use them in different parts of the application.
+Destructuring helps us unpack values from arrays and objects and assign them to separate variables in a simple and smooth way
+
+3. Array Methods
+
+You'll encounter arrays several times while working on React projects. An array is a collection of data. You store data in arrays, so you can reuse them when needed.
+Array methods are primarily used to manipulate, retrieve, and display data.
+
+4. Short conditionals
+
+Conditionals are statements that JavaScript uses to make decisions in code. Short conditionals include && (and), II (or), and the Ternary Operator. 
+
+5. Template Literals
+
+Template Literals use back-ticks (``) to define a string. Template literals allow you to manipulate string data making them more dynamic. Tagged template literals allow you to perform operations within a string. These are shorter expressions of conditions and the if/else statements.
+
+
+6. Spread Operators
+
+The Spread operator (...) copies the values of an object or array into another. Its syntax consists of three dots followed by the name of the variable. For example (...name). It merges the properties of two arrays or objects.
+
+7. Promises
+
+Promises have fixed syntax. Either a promise is resolved or rejected.
+Operation are performed in a promise and if it is completed successfully it is resolved 
+otherwise it is rejected.
+
+We use then and catch to show the value after resolve and error after reject.
+Mainly a promise have 3 states :
+pending , resolved , rejected
+
+Resolve & Reject  are built in call backs by JavaScript.
+Chaining in Promises can also be used .
+like .then().then() and so on .
+
+
+8. Fetch API
+
+The Fetch API allows us to make async requests to web servers from the browser. 
+It returns a promise every time a request is made which is then further used to retrieve the response of the request.
+A basic fetch() takes one argument, the URL of the resource you want to fetch.
+It then returns another promise that resolves with a Response object.
+This Response object is the representation of the HTTP response.
+So, to get the JSON content from this promise, you have to use the .json() method on the Response object.
+This at last will return a promise that resolves with the result of the parsed JSON data from the response body.
+
+First we use fetch method and add url with information like header etc if required.
+After first then() it give response status we parse its value to json , next then() is used to 
+get value of the fetched data.
+
+9. Async/Await
+
+Async/Await functionality provides a better and cleaner way to deal with Promises. 
+async/await helps us write promise-based functions in such a way as
+if they were synchronous by stopping the execution of further code until the promise is resolved or rejected.
+To make it work, you have to first use the async keyword before declaring a function. For example, async function promise() {}. Putting async before a function means that the function will always return a promise.
+Inside an async function, you can use the keyword await to suspend further execution of code until that promise is resolved or rejected. You can use await only inside of an async function.
+
